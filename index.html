@@ -1,1 +1,295 @@
-Hello World
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Austin Sloane Portfolio</title>
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+	<link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
+    <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+</head>
+
+<body>
+    <div id="mobile-menu-open" class="shadow-large">
+        <i class="fa fa-bars" aria-hidden="true"></i>
+    </div>
+    <!-- End #mobile-menu-toggle -->
+    <header>
+        <div id="mobile-menu-close">
+            <span>Close</span> <i class="fa fa-times" aria-hidden="true"></i>
+        </div>
+        <ul id="menu" class="shadow">
+            <!-- <li>
+                <a href="#about">About</a>
+            </li> -->
+            <li>
+                <a href="#experience">Experience</a>
+            </li>
+            <li>
+                <a href="#education">Education</a>
+            </li>
+            <li>
+                <a href="#projects">Projects</a>
+            </li>
+            <li>
+                <a href="#skills">Skills</a>
+            </li>
+            <li>
+                <a href="#contact">Contact</a>
+            </li>
+        </ul>
+    </header>
+    <!-- End header -->
+
+    <div id="lead">
+        <div id="lead-content">
+            <!-- <div style="background-image: url('ImageLocation');background-size: cover; height:480px; padding-top:80px;">
+                <img src="ImageFilePath" style="height:150px; border-radius: 50%; border: 10px solid #FEDE00;" alt="This is a small profile image of Digital Ocean’s mascot, a blue smiling shark.">
+            </div> -->
+            <h1>Austin T. Sloane</h1>
+            <h2>Software Engineer</h2>
+            <a href="https://drive.google.com/file/d/1WQ5hBfxu60RAy4VZlhNvSZP2vpJyI60A/view?usp=sharing" class="btn-rounded-white">Download Resume</a>
+        </div>
+        <!-- End #lead-content -->
+
+        <div id="lead-overlay"></div>
+
+        <div id="lead-down">
+            <span>
+                <i class="fa fa-chevron-down" aria-hidden="true"></i>
+            </span>
+        </div>
+        <!-- End #lead-down -->
+    </div>
+    <!-- End #lead -->
+
+    <!-- <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h2 class="heading">About Me</h2>
+                </div>
+                <div class="col-md-8">
+                    <p>
+                        
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div> -->
+    <!-- End #about -->
+
+    <div id="experience" class="background-alt">
+        <h2 class="heading">Experience</h2>
+        <div id="experience-timeline">
+            <div data-date="September 2020 - Today">
+                <h3>2U</h3>
+                <h4>Teaching Assistant</h4>
+                <p>
+                    Data Visualization course at UC Berkeley Extension and University of Oregon
+                </p>
+                <ul>
+                    <li>Led instruction on topics including JavaScript, using APIs and how to diagnose and troubleshoot issues</li>
+                    <li>Host regular office hours to help with tool installation, assignments, and to answer questions or offer insight into topics outside the scope of the course material</li>
+                </ul>
+            </div>
+
+            <div data-date="February 2019">
+                <h3>Varisty Tutors</h3>
+                <h4>Private Mathematics Tutor</h4>
+                <ul>
+                    <li>Quickly discovered problem areas and pain points in students studies to focus and overcome</li>
+                    <li>Worked with students from Elementary to College level to develop a deep understanding of the material</li>
+                </ul>
+            </div>
+
+            <div data-date="March 2018">
+                <h3>Self Employed</h3>
+                <h4>Mathematics and General Studies Tutor</h4>
+                <ul>
+                    <li>Designed lesson plans in preparation for a wide variety of exams and papers</li>
+                    <li>Helped students with time management and general task priority skills</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- End #experience -->
+
+    <div id="education">
+        <h2 class="heading">Education</h2>
+        <div class="education-block">
+            <h3>Hack Reactor</h3>
+            <span class="education-date">Sept 2017 - Dec 2017</span>
+            <h4>Software Engineering Coding Bootcamp</h4>
+            <p>
+                A 12 week immersive course where I learned Full Stack JavaScript, deployment and Application design and iterative development.
+            </p>
+        </div>
+        <!-- End .education-block -->
+
+        <div class="education-block">
+            <h3>Whitman College</h3>
+            <span class="education-date">Aug 2012 - Dec 2017</span>
+            <h4>Bachelor's Degree in Mathematics</h4>
+            <p>
+                A small liberal arts college with a small student-faculty ratio.
+                 A great focus on interdisciplinary studies and encouraging communication and writing skills.
+            </p>
+        </div>
+        <!-- End .education-block -->
+    </div>
+    <!-- End #education -->
+
+    <div id="projects" class="background-alt">
+        <h2 class="heading">Projects</h2>
+        <div class="container">
+            <div class="row">
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/lena-project.png" />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>lena</h3>
+                        <p>
+                            A growth analytics platform for an E-commerce marketplace
+                        </p>
+                        <ul>
+                            <li>Architected schemas with PostgreSQL for fast insertion and querying of over 10 million transactions</li>
+                            <li>Monitored system performance with Elasticsearch, Logstash and Kibana for analysis of bottlenecks</li>
+                            <li>Optimized insertion of 10,000 database entries into the database from minutes to under a second</li>
+                            <li>Implemented a message bus to prevent loss of data between services</li>
+                        </ul>
+                        <a href="https://github.com/lena-team">View Project</a>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/outergamespace_logo_small.png" />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>OuterGameSpace</h3>
+                        <p>
+                            Software Engineer Group trivia game
+                        </p>
+                        <ul>
+                            <li>Architected schemas with MySQL for fast querying and efficient storage of highly relational data</li>
+                            <li>Designed secure and fast login prompts, using React to improve customer interaction and engagement</li>
+                            <li>Implemented server endpoints to securely hash and store user information, using bcrypt and Express</li>
+                        </ul>
+                        <a href="https://github.com/Blaradox/outergamespace">View Project</a>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/event_hud_small.png" />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>EventHub</h3>
+                        <p>
+                            Event planning and project management hub
+                        </p>
+                        <ul>
+                            <li>Implemented test-driven development with Mocha and Chai for improved stability and maintainability</li>
+                            <li>Built dynamic views using AngularJS and Angular Router for an extensible MVC framework</li>
+                            <li>Worked closely with product designer to solidify deliverables for the development team</li>
+                        </ul>
+                        <a href="https://github.com/Blaradox/hrsf81-grazers">View Project</a>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+            </div>
+        </div>
+    </div>
+    <!-- End #projects -->
+
+    <div id="skills">
+        <h2 class="heading">Skills</h2>
+        <ul>
+            <li>JavaScript</li>
+            <li>Python</li>
+            <li>git</li>
+            <li>PostgreSQL</li>
+            <li>MySQL</li>
+            <li>MongoDB</li>
+            <li>Tableau</li>
+            <li>Excel</li>
+            <li>Pandas</li>
+            <li>Matplotlib</li>
+            <li>Kibana</li>
+            <li>Elasticsearch</li>
+            <li>Node.js</li>
+            <li>AngularJs</li>
+            <li>React</li>
+            <li>Express</li>
+            <li>jQuery</li>
+            <li>Backbone</li>
+            <li>Chai</li>
+        </ul>
+    </div>
+    <!-- End #skills -->
+
+    <div id="contact">
+        <h2>Get in Touch</h2>
+        <div id="contact-form">
+            <form method="POST" action="https://formspree.io/f/xzboyvkp">
+                <input type="hidden" name="_subject" value="Contact request from personal website" />
+                <input type="email" name="_replyto" placeholder="Your email" required>
+                <textarea name="message" placeholder="Your message" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </div>
+        <!-- End #contact-form -->
+    </div>
+    <!-- End #contact -->
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-5 copyright">
+                    <p>
+                        Copyright &copy; <span id="current-year">2022</span> Austin Sloane
+                    </p>
+                </div>
+                <div class="col-sm-2 top">
+                    <span id="to-top">
+                        <i class="fa fa-chevron-up" aria-hidden="true"></i>
+                    </span>
+                </div>
+                <div class="col-sm-5 social">
+                    <ul>
+                        <li>
+                            <a href="https://github.com/Blaradox" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://linkedin.com/in/sloaneat/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://stackoverflow.com/" target="_blank"><i class="fa fa-stack-overflow" aria-hidden="true"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- End footer -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/scripts.min.js"></script>
+</body>
+
+</html>
